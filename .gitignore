@@ -1,0 +1,9 @@
+*.pth
+*.ckpt
+*.pt
+*.npy
+*/checkpoints/*
+*/checkpoints/*/*.pth
+*/data/*
+*/*logs/*
+*/pl_experiments/*

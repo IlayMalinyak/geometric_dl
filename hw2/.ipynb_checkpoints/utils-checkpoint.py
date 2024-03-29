@@ -138,5 +138,4 @@ def test_rotation_group():
     ax[1].imshow(transformed_img.transpose(0, 1).transpose(1, 2))
     ax[1].set_title("Transformed Image")
     ax[1].axis("off")
-    plt.savefig(f'{IMGS_PATH}/group_action.png')
     plt.show()

@@ -1,0 +1,11 @@
+model_hparams:
+  hidden_channels: 32
+  in_channels: 1
+  kernel_size: 3
+  num_hidden: 4
+  out_channels: 10
+model_name: CNN
+optimizer_hparams:
+  lr: 0.01
+  weight_decay: 1.0e-05
+optimizer_name: Adam
